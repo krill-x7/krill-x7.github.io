@@ -22,7 +22,7 @@ url     : https://krill-x7.github.io # the base hostname & protocol for your sit
 baseurl : # does not include hostname
 title   : krill
 description: > # this means to ignore newlines until "Language & timezone"
-  Top 1% of the 1%
+
 
 
 ## => Language and Timezone
@@ -39,7 +39,7 @@ author:
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
-  email     :krilinc21@gmail.com
+  email     : krilinc21@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -55,7 +55,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: krill-x7/krill-x7.github.io
+repository:
 repository_tree: master
 
 
