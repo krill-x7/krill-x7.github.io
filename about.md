@@ -32,8 +32,9 @@ There's more to this one:...But sometimes you need illusions to gain control. Fa
 ```javascript
 ┌─[krill@anonsurf]─[~]
 └──╼ $ Hi, i am Krill(multi_planetry traveller | astral traveller | Questions existence |).haha, all that was just fiction
-XD "." I still question existence tho, yeah i do;
-i
+XD I still question existence tho, yeah i do; there's alot to ask about. Where does these all lead? 
+
+Just your regular Tech savy dude, documenting 'his journey so he doesn't go berserk
 
 
 ```
