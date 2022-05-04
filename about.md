@@ -30,5 +30,8 @@ published: true
 There's more to this one: "...But sometimes you need illusions to gain control. Fantasy is an easy way to give meaning to the world. To cloak our harsh reality with escapist comfort.
 
 ```javascript
-;
+┌─[krill@anonsurf]─[~]
+└──╼ $ 
+
+
 ```
