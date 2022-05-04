@@ -22,7 +22,7 @@ url     : https://krill-x7.github.io # the base hostname & protocol for your sit
 baseurl : # does not include hostname
 title   : krill
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  Top 1% of the 1%
 
 
 ## => Language and Timezone
