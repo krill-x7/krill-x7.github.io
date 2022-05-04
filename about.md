@@ -31,7 +31,7 @@ There's more to this one:...But sometimes you need illusions to gain control. Fa
 
 ```javascript
 ┌─[krill@anonsurf]─[~]
-└──╼ $ 
+└──╼ $ Hi, i am Krill(multi_planetry traveller| astral traveller :ghost)
 
 
 ```
