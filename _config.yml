@@ -21,7 +21,8 @@ highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "t
 url     : https://krill-x7.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Krill
-description: "Top 1 of the 1" # this means to ignore newlines until "Language & timezone"
+description: > # this means to ignore newlines until "Language & timezone"
+  Top 1% of the 1%
 
 
 
@@ -39,7 +40,7 @@ author:
   name      : krill
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
+  bio       : Top 1% of the 1%
   email     : krilinc21@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
