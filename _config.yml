@@ -22,7 +22,7 @@ url     : https://krill-x7.github.io # the base hostname & protocol for your sit
 baseurl : # does not include hostname
 title   : Krill
 description: "Top 1 of the 1" # this means to ignore newlines until "Language & timezone"
-  Top 1 of the 1
+
 
 
 
