@@ -25,7 +25,7 @@ key: page-about
 published: true
 ---
 
-![TeXt Theme](/assets/images/mr-robot.jpg)
+![TeXt Theme](/assets/images/mr_robot.jpg)
 
 There's more to this one: "...But sometimes you need illusions to gain control. Fantasy is an easy way to give meaning to the world. To cloak our harsh reality with escapist comfort.
 
