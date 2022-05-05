@@ -18,7 +18,9 @@ header:
       en      : &EN       Posts
 
       # @end locale config
-    url: /index.html
+    url: /index.html    
+    
+  
   
 
 
