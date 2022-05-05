@@ -35,11 +35,11 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 
 ## => Author and Social
 ##############################
-author: krill
+author:
   type      : # "person" (default), "organization"
   name      : krill
   url       :
-  avatar    : https://w0.peakpx.com/wallpaper/922/830/HD-wallpaper-evil-corp-mr-robot-minimalist-mr-robot-tv-shows-minimalism-artwork.jpg # path or url of avatar image (square)
+  avatar    : /assets/images/mr_robot.jpg # path or url of avatar image (square)
   bio       : Top 1% of the 1%
   email     : krilinc21@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
