@@ -4,7 +4,7 @@ tags: blog
 article_header:
   type: cover
   image:
-    src: /screenshot.jpg
+    src: /assets/images/mr_robot.jpg
 published: true
 ---
 
