@@ -39,7 +39,7 @@ The nmap result shows that the box has 2 open ports; port 22 and 80, running an 
 
 ## Enumeration [port: 80]
 Visiting the webpage running on port 80, found some sort of esoteric programming; **Brainfuck** it is;  
-![page 80](/assets/images/THM/mingames/page1.png)
+![page 80](/assets/images/THM/mindgames/page1.png)
 
 `Brainfuck is an esoteric programming language created in 1993 by a Swiss physics student named Urban Müller, Brainfuck was an attempt to create a language with the smallest possible compiler` 
 
