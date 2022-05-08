@@ -46,10 +46,10 @@ Visiting the webpage running on port 80, found some sort of esoteric programming
 
 `Brainfuck is an esoteric programming language created in 1993 by a Swiss physics student named Urban Müller, Brainfuck was an attempt to create a language with the smallest possible compiler` 
 
-Also, right beneath, we have what looks like a brainfuck code compiler; Check it out! 
-Pasting the Fibonacci brainfuck code, gives you what looks like a Fibonacci sequence of number. .  mmmm..  
+Also, right beneath, we have what looks like a brainfuck code interpreter; Check it out!   
+Pasting the Fibonacci brainfuck code, gives what looks like a Fibonacci sequence of number. .  mmmm..  
 ![compiler](/assets/images/THM/mindgames/page2.png)
 
-Decoding this gives us what looks like a python code; noice :ghost: 
+Decoding this with `[dcode](https://www.dcode.fr/brainfuck-language)` gives what looks like a python code; noice :ghost: 
 
 ```python
