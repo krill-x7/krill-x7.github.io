@@ -173,10 +173,12 @@ getcap -r / 2>/dev/null
 ```bash   
 mindgames@mindgames:~/webserver$  getcap -r / 2>/dev/null
 /usr/bin/mtr-packet = cap_net_raw+ep
-`/usr/bin/openssl = cap_setuid+ep`
+/usr/bin/openssl = cap_setuid+ep
 /home/mindgames/webserver/server = cap_net_bind_service+ep
 ```
-   
+
+ooph, we meet again `openssl cap_setuid+ep`
+i already wrote a post on how to exploit this capability and get a root shell~ 
 
 
 
