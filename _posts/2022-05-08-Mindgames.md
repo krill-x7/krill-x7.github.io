@@ -53,3 +53,13 @@ Pasting the Fibonacci brainfuck code, gives what looks like a Fibonacci sequence
 Decoding this with `[dcode](https://www.dcode.fr/brainfuck-language)` gives what looks like a python code; noice :ghost: 
 
 ```python
+def F(n):
+    if n <= 1:
+        return 1
+    return F(n-1)+F(n-2)
+
+
+for i in range(10):
+    print(F(i))
+``` 
+now it's obvious uhn; let's pop a reverse shell with this python-nc mega combo oneliner :trollface:
