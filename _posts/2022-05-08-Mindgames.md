@@ -178,11 +178,11 @@ mindgames@mindgames:~/webserver$  getcap -r / 2>/dev/null
 ```
 
 ooph, we meet again `openssl cap_setuid+ep` :smirk_cat:
-i already wrote a post on how to exploit this capability and get a root shell~   
+i already wrote a post on how to exploit this capability to get a root shell~   
 check [it](https://krill-x7.github.io/2022/05/08/linuxPrivEsc.html) out.
 
 ## Conclusion
-The most interesting part for me was crafting the C exploit code to get a root shell using the openssl capability. 
+finally, you made it to the end GG . 
 
 _sayonara~:beers:_
 
