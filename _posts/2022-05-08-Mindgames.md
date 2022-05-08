@@ -95,5 +95,7 @@ mindgames@mindgames:~/webserver$
 we got a shell with a user with low priviledges, we need to escalate :triumph:
 
 ### Priviledge Escalation
-#### 
+#### Root Hunting: Vertical privEsc :arrow_up:
+
+with the current user, run the following commands to ennumerate for possible privesc vectors;
 
