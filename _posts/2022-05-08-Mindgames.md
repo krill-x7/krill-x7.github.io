@@ -10,11 +10,13 @@ author: krill
 Just a terrible idea...
 
 ## Enumeration
-so much emphais on enumeration, it is the key to successfully exploit a box.
+
+so much emphasis on enumeration, it is the key to successfully exploit a box.
 nmap scan: 
 
 `nmap -F -sV -sC -r -n 10.10.163.89 --min-rate 1000` 
-    
+
+```bash
     ┌─[krill@anonsurf]─[~/Boxes/THM/mindgames]
     └──╼ $nmap -F -sV -sC -r -n 10.10.163.89 --min-rate 1000  
     Starting Nmap 7.91 ( https://nmap.org ) at 2022-05-08 02:45 WAT
@@ -33,11 +35,13 @@ nmap scan:
 
     Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
     Nmap done: 1 IP address (1 host up) scanned in 33.29 seconds
+```
 
 The nmap result shows that the box has 2 open ports; port 22 and 80, running an ssh server(OpenSSH 7.6p1) and an http server(Golang net/http).
 
 
-## Enumeration [port: 80]
+### Golang net/http server [port: 80]
+
 Visiting the webpage running on port 80, found some sort of esoteric programming; **Brainfuck** it is;  
 ![page 80](/assets/images/THM/mindgames/page1.png)
 
@@ -47,4 +51,6 @@ Also, right beneath, we have what looks like a brainfuck code compiler; Check it
 Pasting the Fibonacci brainfuck code, gives you what looks like a Fibonacci sequence of number. .  mmmm..  
 ![compiler](/assets/images/THM/mindgames/page2.png)
 
+Decoding this gives us what looks like a python code; noice :ghost: 
 
+```python
