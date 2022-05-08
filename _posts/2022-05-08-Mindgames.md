@@ -81,8 +81,8 @@ nc -lvnp 4444
 ```
 
 #### Execution:
-with the netcat listener running, we just need to execute the brainfuck python reverse shell code.  
-if you followed all steps correctly, you should get a shell just like this;  
+with the netcat listener running, paste the brainfuck-python reverse-shell code and run.  
+you should get a shell just like this;  
 ```bash
 ┌─[krill@anonsurf]─[~/Boxes/THM/mindgames]
 └──╼ $nc -lvnp 4444 
@@ -92,4 +92,8 @@ bash: cannot set terminal process group (734): Inappropriate ioctl for device
 bash: no job control in this shell
 mindgames@mindgames:~/webserver$ 
 ```
+we got a shell with a user with low priviledges, we need to escalate :triumph:
+
+### Priviledge Escalation
+#### 
 
