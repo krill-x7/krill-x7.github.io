@@ -46,11 +46,11 @@ Visiting the webpage running on port 80, found some sort of esoteric programming
 
 `Brainfuck is an esoteric programming language created in 1993 by a Swiss physics student named Urban Müller, Brainfuck was an attempt to create a language with the smallest possible compiler` 
 
-Also, right beneath, we have what looks like a brainfuck code interpreter; Check it out!   
+Also, right beneath, we've got a brainfuck code interpreter; Check it out!   
 Pasting the Fibonacci brainfuck code, gives what looks like a Fibonacci sequence of number. .  mmmm..  
 ![compiler](/assets/images/THM/mindgames/page2.png)
 
-Decoding this with [`dcode`](https://www.dcode.fr/brainfuck-language) gives what looks like a python code; noice :ghost: 
+Decoding this with [`dcode`](https://www.dcode.fr/brainfuck-language) gives us a python code; noice :ghost: 
 
 ```python
 def F(n):
@@ -177,7 +177,7 @@ mindgames@mindgames:~/webserver$  getcap -r / 2>/dev/null
 /home/mindgames/webserver/server = cap_net_bind_service+ep
 ```
 
-ooph, we meet again `openssl cap_setuid+ep` :smirk_cat:
+ooph, we meet again `openssl cap_setuid+ep` :smirk_cat:   
 i already wrote a post on how to exploit this capability to get a root shell~   
 check [`it`](https://krill-x7.github.io/2022/05/08/linuxPrivEsc.html) out.
 
