@@ -162,5 +162,13 @@ mindgames@mindgames:~/webserver$ find / -type f -perm -u=s 2>/dev/null
 looking through this, i didn't find any privesc vector(there most likely is, maybe a zeroday.) 
 
 #### Capabilities:
+wait a sec, what are capabilities? 
+```text
+Linux Capabilities are used to allow binaries (executed by non-root users) to perform privileged operations without providing them all root priviledges.
+```
+checking for capabilities with the following command, gave something interesting :bulb:  
+```bash
+getcap -r / 2>/dev/null
+```
 
 
