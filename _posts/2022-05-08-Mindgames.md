@@ -50,7 +50,7 @@ Also, right beneath, we have what looks like a brainfuck code interpreter; Check
 Pasting the Fibonacci brainfuck code, gives what looks like a Fibonacci sequence of number. .  mmmm..  
 ![compiler](/assets/images/THM/mindgames/page2.png)
 
-Decoding this with `[dcode](https://www.dcode.fr/brainfuck-language)` gives what looks like a python code; noice :ghost: 
+Decoding this with [`dcode`](https://www.dcode.fr/brainfuck-language) gives what looks like a python code; noice :ghost: 
 
 ```python
 def F(n):
