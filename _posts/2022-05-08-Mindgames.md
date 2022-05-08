@@ -1,6 +1,6 @@
 ---
 title: Mindgames
-tags: Tryhackme ctf
+tags: Tryhackme ctf linux
 article_header:
   type: cover
 published: true
