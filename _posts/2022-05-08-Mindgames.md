@@ -177,8 +177,14 @@ mindgames@mindgames:~/webserver$  getcap -r / 2>/dev/null
 /home/mindgames/webserver/server = cap_net_bind_service+ep
 ```
 
-ooph, we meet again `openssl cap_setuid+ep`
-i already wrote a post on how to exploit this capability and get a root shell~ 
+ooph, we meet again `openssl cap_setuid+ep` :smirk_cat:
+i already wrote a post on how to exploit this capability and get a root shell~   
+check [it](https://krill-x7.github.io/2022/05/08/linuxPrivEsc.html) out.
+
+## Conclusion
+The most interesting part for me was crafting the C exploit code to get a root shell using the openssl capability. 
+
+_sayonara~:beers:_
 
 
 
