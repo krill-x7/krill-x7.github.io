@@ -41,7 +41,6 @@ The nmap result shows that the box has 2 open ports; port 22 and 80, running an 
 
 
 ### Golang net/http server [port: 80]
-
 Visiting the webpage running on port 80, found some sort of esoteric programming; **Brainfuck** it is;  
 ![page 80](/assets/images/THM/mindgames/page1.png)
 
