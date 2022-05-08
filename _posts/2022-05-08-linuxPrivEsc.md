@@ -36,10 +36,10 @@ published: true
 >>1. gcc -fPIC -o ssl-ploit.o -c ssl-ploit.c  
 >>2. gcc -shared -o ssl-ploit.so -lcrypt ssl-ploit.o  
 >>```
->> finally; the exploit is complete 💥. You should get a `'<whatever_name_you_saved_your_exploit_as>'.so` file. in my case, i named which is ssl-ploit.so. 
+>> finally; the exploit is complete 💥. You should get a `'<whatever_name_you_saved_your_exploit_as>'.so` file. in my case, `ssl-ploit.so` . 
 >> 
 >>### Exploitation:
->>Now you've got just one more thing to do, you need to transfer the `ssl-ploit.so` file to the target machine. (you can send it to `/dev/shm` or your home directory using python webserver or scp)   
+>>Now you've got just one more thing to do, you need to transfer the `ssl-ploit.so` file to the target machine. (you can send it to `/dev/shm` or your home directory using `python-simple-webserver` or `scp`)   
 >>Then run the exploit :)
 >>```javascript
 >>
