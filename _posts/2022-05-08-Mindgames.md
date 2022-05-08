@@ -62,4 +62,9 @@ def F(n):
 for i in range(10):
     print(F(i))
 ``` 
-now it's obvious uhn; let's pop a reverse shell with this python-nc mega combo oneliner :trollface:
+now it's obvious uhn; let's pop a reverse shell with this ``python-netcat mega-combo oneliner``
+:trollface:
+
+## Exploitation
+### Foothold: Initial access
+
