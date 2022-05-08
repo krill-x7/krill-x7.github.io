@@ -97,5 +97,70 @@ we got a shell with a user with low priviledges, we need to escalate :triumph:
 ### Priviledge Escalation
 #### Root Hunting: Vertical privEsc :arrow_up:
 
-with the current user, run the following commands to ennumerate for possible privesc vectors;
+with the current user, we can check for possible privesc vectors; 
+
+#### SUID Bits:
+you can check for suid bits using the following command:
+```bash
+find / -type f -perm -u=s 2>/dev/null 
+```
+```bash
+mindgames@mindgames:~/webserver$ find / -type f -perm -u=s 2>/dev/null
+/bin/ping
+/bin/fusermount
+/bin/umount
+/bin/su
+/bin/mount
+/snap/core/8268/bin/mount
+/snap/core/8268/bin/ping
+/snap/core/8268/bin/ping6
+/snap/core/8268/bin/su
+/snap/core/8268/bin/umount
+/snap/core/8268/usr/bin/chfn
+/snap/core/8268/usr/bin/chsh
+/snap/core/8268/usr/bin/gpasswd
+/snap/core/8268/usr/bin/newgrp
+/snap/core/8268/usr/bin/passwd
+/snap/core/8268/usr/bin/sudo
+/snap/core/8268/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core/8268/usr/lib/openssh/ssh-keysign
+/snap/core/8268/usr/lib/snapd/snap-confine
+/snap/core/8268/usr/sbin/pppd
+/snap/core/9066/bin/mount
+/snap/core/9066/bin/ping
+/snap/core/9066/bin/ping6
+/snap/core/9066/bin/su
+/snap/core/9066/bin/umount
+/snap/core/9066/usr/bin/chfn
+/snap/core/9066/usr/bin/chsh
+/snap/core/9066/usr/bin/gpasswd
+/snap/core/9066/usr/bin/newgrp
+/snap/core/9066/usr/bin/passwd
+/snap/core/9066/usr/bin/sudo
+/snap/core/9066/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core/9066/usr/lib/openssh/ssh-keysign
+/snap/core/9066/usr/lib/snapd/snap-confine
+/snap/core/9066/usr/sbin/pppd
+/usr/lib/x86_64-linux-gnu/lxc/lxc-user-nic
+/usr/lib/snapd/snap-confine
+/usr/lib/openssh/ssh-keysign
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/eject/dmcrypt-get-device
+/usr/lib/policykit-1/polkit-agent-helper-1
+/usr/bin/chsh
+/usr/bin/sudo
+/usr/bin/chfn
+/usr/bin/gpasswd
+/usr/bin/newgrp
+/usr/bin/at
+/usr/bin/traceroute6.iputils
+/usr/bin/passwd
+/usr/bin/newgidmap
+/usr/bin/pkexec
+/usr/bin/newuidmap
+```
+looking through this, i didn't find any privesc vector(there most likely is, maybe a zeroday.) 
+
+#### Capabilities:
+
 
