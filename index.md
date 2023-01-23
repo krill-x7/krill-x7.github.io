@@ -25,7 +25,8 @@ permalink: /
 
 
 
-_**Boundaries? Pshh, we transcend them.**_
+
+_**Boundaries?  Pshh, we transcend them.**_
 
 
 
