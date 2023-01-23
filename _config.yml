@@ -11,7 +11,7 @@ header_pages:
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-style: hacker #light # dark (default) or light
+style: dark #hacker #light dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
