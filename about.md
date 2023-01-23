@@ -4,7 +4,6 @@ layout: page
 permalink: /about/
 ---
 
-![TeXt Theme](/jpegs/mr_robot.jpg)
 *There's more to this one:...But sometimes you need illusions to gain control. Fantasy is an easy way to give meaning to the world. To cloak our harsh reality with escapist comfort.*
 
 ```javascript
@@ -13,6 +12,5 @@ permalink: /about/
 I still question existence tho, yeah i do. There is alot to ask about; Where does these all lead? 
 
 Just your regular Tech savy dude, documenting his journey so he doesn't go berserk.
-
 
 ```
