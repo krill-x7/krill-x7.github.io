@@ -11,7 +11,7 @@ header_pages:
 
 footer: '<a href="https://github/">Github</a>'
 
-style: light
+style: dark
 #listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
