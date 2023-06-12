@@ -8,7 +8,7 @@ author: krill
 ---
 
 
-1. Recon with Nmap
+######  1.  Recon with Nmap
 
 ```
 nmap -sCV -oN map.txt -p- --min-rate 2000 10.10.11.194
@@ -83,12 +83,16 @@ PORT     STATE SERVICE         VERSION
 |_    </html>
 ```
 
-###### Service Enumeration 
+
+###### 2. Service Enumeration 
 ```
 [+] Port 22
 	Version: OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
 	Public Exploit: 
-	
+
+```
+
+```
 [+] Port 80
 	Version:  nginx 1.18.0 (Ubuntu)
 	Public Exploit: 
@@ -98,10 +102,7 @@ PORT     STATE SERVICE         VERSION
 
 	- The IP address should resolve to soccer.htb now 
 ```
-
 ![](/assets/images/HTB/resolve.png)
-
-
 ```
 	[+] Directory Bruteforce
 		- 
