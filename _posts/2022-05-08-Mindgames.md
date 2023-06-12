@@ -1,13 +1,13 @@
 ---
 title: Mindgames
-tags: Tryhackme ctf linux
+tags: THM ctf linux
 article_header:
   type: cover
 published: true
 author: krill
 ---
-# Mindgames 
 Just a terrible idea...
+<br><br><br> 
 
 ## Enumeration
 
