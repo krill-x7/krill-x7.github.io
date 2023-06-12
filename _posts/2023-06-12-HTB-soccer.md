@@ -83,8 +83,7 @@ PORT     STATE SERVICE         VERSION
 |_    </html>
 ```
 
-
-2. Service Enumeration 
+###### Service Enumeration 
 ```
 [+] Port 22
 	Version: OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
@@ -99,7 +98,10 @@ PORT     STATE SERVICE         VERSION
 
 	- The IP address should resolve to soccer.htb now 
 ```
-![](/img/resolve.png)
+
+![](/assets/images/HTB/resolve.png)
+
+
 ```
 	[+] Directory Bruteforce
 		- 
