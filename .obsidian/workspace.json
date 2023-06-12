@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-12-HTB-soccer.md",
+                "file": "_posts/2022-05-08-linuxPrivEsc.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "34c28815c2e212f7",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-12-HTB-soccer.md",
+                "file": "_posts/2022-05-08-linuxPrivEsc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-12-HTB-soccer.md",
+                "file": "_posts/2022-05-08-linuxPrivEsc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-12-HTB-soccer.md"
+                "file": "_posts/2022-05-08-linuxPrivEsc.md"
               }
             }
           }
@@ -149,9 +148,10 @@
   },
   "active": "818f2cad5055df54",
   "lastOpenFiles": [
+    "_posts/2023-06-12-HTB-soccer.md",
+    "_posts/2022-05-08-linuxPrivEsc.md",
     "assets/images/HTB/resolve.png",
     "img/resolve.png.md",
-    "_posts/2023-06-12-HTB-soccer.md",
     "img",
     "_posts/2022-05-08-Mindgames.md",
     "assets/images/HTB"
