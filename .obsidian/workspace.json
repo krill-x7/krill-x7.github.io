@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-17-THM-Red.md",
+                "file": "_posts/2023-06-15-HTB-Topology.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "34c28815c2e212f7",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-17-THM-Red.md",
+                "file": "_posts/2023-06-15-HTB-Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-17-THM-Red.md",
+                "file": "_posts/2023-06-15-HTB-Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-17-THM-Red.md"
+                "file": "_posts/2023-06-15-HTB-Topology.md"
               }
             }
           }
@@ -149,8 +148,10 @@
   },
   "active": "bd98bff36dd5cec1",
   "lastOpenFiles": [
-    "_posts/2023-07-13-THM-0day.md",
+    "_posts/2022-05-08-THM-Mindgames.md",
+    "_posts/2022-05-08-linuxPrivEsc.md",
     "_posts/2023-07-17-THM-Red.md",
+    "_posts/2023-07-13-THM-0day.md",
     "images/THM/red/root.png",
     "images/THM/red/psexec.png",
     "images/THM/red/hosts.png",
@@ -162,9 +163,7 @@
     "images/THM/red/file.png",
     "images/THM/red/webpage.png",
     "images/THM/red",
-    "_posts/2022-05-08-THM-Mindgames.md",
     "_posts/2023-07-13-THM-UltraTech.md",
-    "_posts/2022-05-08-linuxPrivEsc.md",
     "_posts/2023-06-14-HTB-Soccer.md",
     "_posts/2023-06-15-HTB-Topology.md",
     "images/THM/Ultratech",
