@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ed79ab9f6b86461d",
+        "id": "a8f6bf5c484483da",
         "type": "tabs",
         "children": [
           {
-            "id": "bd98bff36dd5cec1",
+            "id": "7423c776ff820e4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-03-27-PicoCTF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bd91c2fd35c253a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-07-17-THM-Red.md",
+                "file": "_posts/2024-05-21-ACTF.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-27-PicoCTF.md",
+                "file": "_posts/2024-05-21-ACTF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-27-PicoCTF.md",
+                "file": "_posts/2024-05-21-ACTF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-27-PicoCTF.md"
+                "file": "_posts/2024-05-21-ACTF.md"
               }
             }
           }
@@ -159,27 +147,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd98bff36dd5cec1",
+  "active": "7423c776ff820e4d",
   "lastOpenFiles": [
-    "images/CTF/pico2024/web/chall7.png",
-    "images/CTF/pico2024/web/chall6.png",
-    "images/CTF/pico2024/web/chall5.png",
-    "images/CTF/pico2024/web/chall4.png",
-    "images/CTF/pico2024/web/chall3.png",
-    "images/CTF/pico2024/web/chall2.png",
-    "images/CTF/pico2024/web/chall1.png",
-    "images/CTF/pico2024/web/decode.png",
-    "images/CTF/pico2024/web/register.png",
-    "images/CTF/pico2024/web/register.png.png",
-    "images/CTF/pico2024/web/chal1.png",
+    "images/CTF/AfricaCyberfest2024/mystique_source.png",
+    "images/CTF/AfricaCyberfest2024/mystique2.png",
+    "images/CTF/AfricaCyberfest2024/mystique1.png",
+    "images/CTF/AfricaCyberfest2024/Dare_devil2.png",
+    "images/CTF/AfricaCyberfest2024/Dare_devil1.png",
+    "images/CTF/AfricaCyberfest2024",
+    "images/mystique1.png",
+    "images/Dare_devil1.png",
+    "images/mystique_source.png",
+    "images/mystique2.png",
+    "images/mystique_2.png",
+    "images/Dare_devil2.png",
+    "_posts/2024-03-27-PicoCTF.md",
+    "_posts/2024-05-21-ACTF.md",
+    "_posts/2023-07-17-THM-Red.md",
     "images/CTF/pico2024/web/file.png.php",
     "images/CTF/pico2024/web/file.jpg.php",
     "images/CTF/pico2024/web/file.php",
     "images/CTF.md",
-    "_posts/2024-03-27-PicoCTF.md",
     "images/CTF/pico2024/web",
     "images/CTF/pico2024",
-    "_posts/2023-07-17-THM-Red.md",
     "images/CTF",
     "_posts/2023-06-15-HTB-Topology.md",
     "_posts/2022-05-08-THM-Mindgames.md",
@@ -193,7 +183,6 @@
     "Pasted image 20230713092102.png.md",
     "Untitled.md",
     "_posts/2023-06-30-THM-Hamlet.md",
-    "images/HTB/topology/sds",
     "about.md",
     "images/mr_robot.jpg.md",
     "assets.md",
