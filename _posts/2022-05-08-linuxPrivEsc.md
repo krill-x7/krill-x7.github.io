@@ -53,9 +53,8 @@ author: krill
 >>root@server# whoami
 >>root
 >>```
->>
->> FInally Root 📸; Thanks for reading. *Sayonara~*
 >> 
+>> FInally Root 📸; Thanks for reading. _Sayonara~🍻_
 
 
 
