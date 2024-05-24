@@ -320,7 +320,7 @@ except KeyboardInterrupt:
 		> doas /usr/bin/dstat --xxx 
 ```
 
-_sayonara~🍻_
+_Sayonara~🍻_
 
 
 

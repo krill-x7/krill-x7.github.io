@@ -158,7 +158,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 		- When the gnuplot binary is run again, you should get a root shell. 
 ```
 
-_sayonara~🍻_
+_Sayonara~🍻_
 
 
 [Hacktricks_link](https://book-hacktricks-xyz.translate.goog/pentesting-web/formula-doc-latex-injection?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-GB#latex-injection)

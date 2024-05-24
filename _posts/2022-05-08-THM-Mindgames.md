@@ -185,7 +185,7 @@ check [`it`](https://krill-x7.github.io/2022/05/08/linuxPrivEsc.html) out.
 ## Conclusion
 finally, you made it to the end GG . 
 
-_sayonara~:beers:_
+_Sayonara~:beers:_
 
 
 
