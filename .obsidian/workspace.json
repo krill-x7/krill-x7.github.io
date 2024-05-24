@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:ctf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7423c776ff820e4d",
+  "active": "a88e8b4f7a0f3cbc",
   "lastOpenFiles": [
     "images/CTF/AfricaCyberfest2024/js_obfuscated.png",
     "images/CTF/AfricaCyberfest2024/mystique_source.png",
